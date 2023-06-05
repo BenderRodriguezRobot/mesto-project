@@ -1,0 +1,6 @@
+.profile {
+  width: 100%;
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: 120px calc(100% - 270px) 150px;
+}
