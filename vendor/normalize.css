@@ -186,6 +186,7 @@ textarea {
   /* 1 */
   margin: 0;
   /* 2 */
+
 }
 
 /**
@@ -224,6 +225,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
+
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -383,3 +385,9 @@ template {
 [hidden] {
   display: none;
 }
+
+
+
+
+
+

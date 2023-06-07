@@ -1,0 +1,16 @@
+.popup__text-activity {
+  width: 358px;
+  height: 27px;
+  margin: 30px auto 0;
+  border: 0;
+  border-bottom: 1px solid #000;
+  resize:none
+}
+
+
+@media (max-width: 500px) {
+  .popup__text-activity {
+    width: 238px;
+
+  }
+}

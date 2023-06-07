@@ -1,6 +1,16 @@
 .profile__activity {
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .profile__activity {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+
+
+  }
 }

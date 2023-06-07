@@ -1,0 +1,10 @@
+.elements__card-icon {
+  align-self: center;
+  margin: 0;
+  transition: .2s;
+}
+
+.elements__card-icon:hover {
+  opacity: .5;
+  cursor: pointer;
+}
