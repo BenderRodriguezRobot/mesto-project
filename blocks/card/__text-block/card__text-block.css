@@ -1,7 +1,6 @@
-.elements__text-block {
+.card__text-block {
   max-width: 246px;
-  height: 23px;
-  margin: 25px auto 31px;
+  margin: 25px auto 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;

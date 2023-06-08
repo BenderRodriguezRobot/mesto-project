@@ -1,7 +1,7 @@
 .card {
   margin: 0 auto;
   max-width: 282px;
-
+  box-sizing: border-box;
   background-color: #fff;
   color: #000;
   border-radius: 3%;

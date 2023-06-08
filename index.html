@@ -21,14 +21,14 @@
       <div class="profile__text">
         <div class="profile__name-item">
           <h1 class="profile__name" id="profile__name">Жак-Ив Кусто</h1>
-          <button class="profile__edit-button" type="submit">
+          <button class="profile__edit-button" type="button">
             <img class="profile__edit-img" src="./images/edit_button.svg" title="Редактировать"
               alt="Кнопка редактирования профиля">
           </button>
         </div>
         <p class="profile__activity">Исследователь океана</p>
       </div>
-      <button class="profile__add-button" type="submit">
+      <button class="profile__add-button" type="button">
         <img src="./images/add_button.svg" title="Добавить фото" alt="Добавить фото">
       </button>
     </section>
@@ -36,57 +36,55 @@
       <ul class="elements__content">
         <li class="elements__cards">
           <article class="card">
-            <img class="elements__card-img" src="./images/karachaevsk.jpg" alt="Церковь в горах"
-              title="Церковь в горах">
-            <div class="elements__text-block">
-              <h2 class="elements__card-title">Карачаевск</h2>
-              <button class="elements__card-icon elements__card-icon_active" type="button"></button>
+            <img class="card__img" src="./images/karachaevsk.jpg" alt="Церковь в горах" title="Церковь в горах">
+            <div class="card__text-block">
+              <h2 class="card__title">Карачаевск</h2>
+              <button class="card__icon card__icon_active" type="button"></button>
             </div>
           </article>
         </li>
         <li class="elements__cards">
           <article class="card">
-            <img class="elements__card-img" src="./images/elbrus.jpg" alt="Церковь в горах" title="Церковь в горах">
-            <div class="elements__text-block">
-              <h2 class="elements__card-title">Гора Эльбрус</h2>
-              <button class="elements__card-icon" type="button"></button>
+            <img class="card__img" src="./images/elbrus.jpg" alt="Эльбрус на закате" title="Эльбрус">
+            <div class="card__text-block">
+              <h2 class="card__title">Гора Эльбрус</h2>
+              <button class="card__icon" type="button"></button>
             </div>
           </article>
         </li>
         <li class="elements__cards">
           <article class="card">
-            <img class="elements__card-img" src="./images/dombai.jpg" alt="Церковь в горах" title="Церковь в горах">
-            <div class="elements__text-block">
-              <h2 class="elements__card-title">Домбай</h2>
-              <button class="elements__card-icon" type="button"></button>
+            <img class="card__img" src="./images/dombai.jpg" alt="Гора Белалакая, Домбай" title="Гора Белалакая">
+            <div class="card__text-block">
+              <h2 class="card__title">Домбай</h2>
+              <button class="card__icon" type="button"></button>
             </div>
           </article>
         </li>
         <li class="elements__cards">
           <article class="card">
-            <img class="elements__card-img" src="./images/elbrus.jpg" alt="Церковь в горах" title="Церковь в горах">
-            <div class="elements__text-block">
-              <h2 class="elements__card-title">Гора Эльбрус</h2>
-              <button class="elements__card-icon" type="button"></button>
+            <img class="card__img" src="./images/elbrus.jpg" alt="Эльбрус на закате" title="Эльбрус">
+            <div class="card__text-block">
+              <h2 class="card__title">Гора Эльбрус</h2>
+              <button class="card__icon" type="button"></button>
             </div>
           </article>
         </li>
         <li class="elements__cards">
           <article class="card">
-            <img class="elements__card-img" src="./images/dombai.jpg" alt="Церковь в горах" title="Церковь в горах">
-            <div class="elements__text-block">
-              <h2 class="elements__card-title">Домбай</h2>
-              <button class="elements__card-icon" type="button"></button>
+            <img class="card__img" src="./images/dombai.jpg" alt="Гора Белалакая, Домбай" title="Гора Белалакая">
+            <div class="card__text-block">
+              <h2 class="card__title">Домбай</h2>
+              <button class="card__icon" type="button"></button>
             </div>
           </article>
         </li>
         <li class="elements__cards">
           <article class="card">
-            <img class="elements__card-img" src="./images/karachaevsk.jpg" alt="Церковь в горах"
-              title="Церковь в горах">
-            <div class="elements__text-block">
-              <h2 class="elements__card-title">Карачаево-Черкессия</h2>
-              <button class="elements__card-icon" type="button"></button>
+            <img class="card__img" src="./images/karachaevsk.jpg" alt="Церковь в горах" title="Церковь в горах">
+            <div class="card__text-block">
+              <h2 class="card__title">Карачаево-Черкессия</h2>
+              <button class="card__icon" type="button"></button>
             </div>
           </article>
         </li>
@@ -101,8 +99,8 @@
     <div class="popup__container">
       <h2 class="popup__text-title">Редактировать профиль</h2>
       <form class="popup__data-editing" name="data-editing" action="#" method="get">
-        <input class="popup__text-name" placeholder="Жак-Ив Кусто">
-        <input class="popup__text-activity" placeholder="Исследователь океана">
+        <input class="popup-text" type="text" name="popup__text-name" placeholder="Жак-Ив Кусто">
+        <input class="popup-text" type="text" name="popup__text-activity" placeholder="Исследователь океана">
         <button class="popup__button" type="submit">Сохранить</button>
       </form>
       <button class="popup__close-button" type="button">
