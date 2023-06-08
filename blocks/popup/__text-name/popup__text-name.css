@@ -1,15 +1,21 @@
 .popup__text-name {
   width: 358px;
   height: 27px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  color: #000;
+  padding: 0;
   margin: 54px auto 0;
   border: 0;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
   resize: none
 }
 
 @media (max-width: 500px) {
   .popup__text-name {
     width: 238px;
-    margin: 75px auto 0;
+    margin: 74px auto 0;
   }
 }

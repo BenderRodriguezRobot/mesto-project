@@ -20,88 +20,73 @@
       <img class="profile__avatar" src="./images/custo.jpg" title="Аватар" alt="Аватар профиля">
       <div class="profile__text">
         <div class="profile__name-item">
-          <p class="profile__name" id="profile__name">Жак-Ив Кусто</p>
-          <button class="profile__edit-button">
+          <h1 class="profile__name" id="profile__name">Жак-Ив Кусто</h1>
+          <button class="profile__edit-button" type="submit">
             <img class="profile__edit-img" src="./images/edit_button.svg" title="Редактировать"
               alt="Кнопка редактирования профиля">
           </button>
         </div>
         <p class="profile__activity">Исследователь океана</p>
       </div>
-      <button class="profile__add-button">
+      <button class="profile__add-button" type="submit">
         <img src="./images/add_button.svg" title="Добавить фото" alt="Добавить фото">
       </button>
-    </section>
-    <!--<section class="popup popup_opened">-->
-    <section class="popup">
-      <div class="popup__container">
-        <div class="popup__inner">
-          <h2 class="popup__text-title">Редактировать профиль</h2>
-          <textarea class="popup__text-name">Жак-Ив Кусто</textarea>
-          <textarea class="popup__text-activity">Исследователь океана</textarea>
-          <button class="popup__button">Сохранить</button>
-          <button class="popup__close-button">
-            <img src="./images/Close-icon.svg" alt="Кнопка закрытия окна">
-          </button>
-        </div>
-      </div>
     </section>
     <section class="elements" aria-label="Карточки">
       <ul class="elements__content">
         <li class="elements__cards">
-          <article class="elements__card">
+          <article class="card">
             <img class="elements__card-img" src="./images/karachaevsk.jpg" alt="Церковь в горах"
               title="Церковь в горах">
             <div class="elements__text-block">
               <h2 class="elements__card-title">Карачаевск</h2>
-              <img class="elements__card-icon elements__card-icon_active" src="./images/heart-black.svg"
-                alt="Иконка-лайк">
+              <button class="elements__card-icon elements__card-icon_active" type="button"></button>
             </div>
           </article>
         </li>
         <li class="elements__cards">
-          <article class="elements__card">
+          <article class="card">
             <img class="elements__card-img" src="./images/elbrus.jpg" alt="Церковь в горах" title="Церковь в горах">
             <div class="elements__text-block">
               <h2 class="elements__card-title">Гора Эльбрус</h2>
-              <img class="elements__card-icon" src="./images/heart.svg" alt="Иконка-лайк">
+              <button class="elements__card-icon" type="button"></button>
             </div>
           </article>
         </li>
         <li class="elements__cards">
-          <article class="elements__card">
+          <article class="card">
             <img class="elements__card-img" src="./images/dombai.jpg" alt="Церковь в горах" title="Церковь в горах">
             <div class="elements__text-block">
               <h2 class="elements__card-title">Домбай</h2>
-              <img class="elements__card-icon" src="./images/heart.svg" alt="Иконка-лайк">
+              <button class="elements__card-icon" type="button"></button>
             </div>
           </article>
         </li>
         <li class="elements__cards">
-          <article class="elements__card">
+          <article class="card">
             <img class="elements__card-img" src="./images/elbrus.jpg" alt="Церковь в горах" title="Церковь в горах">
             <div class="elements__text-block">
               <h2 class="elements__card-title">Гора Эльбрус</h2>
-              <img class="elements__card-icon" src="./images/heart.svg" alt="Иконка-лайк">
+              <button class="elements__card-icon" type="button"></button>
             </div>
           </article>
         </li>
         <li class="elements__cards">
-          <article class="elements__card">
+          <article class="card">
             <img class="elements__card-img" src="./images/dombai.jpg" alt="Церковь в горах" title="Церковь в горах">
             <div class="elements__text-block">
               <h2 class="elements__card-title">Домбай</h2>
-              <img class="elements__card-icon" src="./images/heart.svg" alt="Иконка-лайк">
+              <button class="elements__card-icon" type="button"></button>
             </div>
           </article>
         </li>
         <li class="elements__cards">
-          <article class="elements__card">
+          <article class="card">
             <img class="elements__card-img" src="./images/karachaevsk.jpg" alt="Церковь в горах"
               title="Церковь в горах">
             <div class="elements__text-block">
               <h2 class="elements__card-title">Карачаево-Черкессия</h2>
-              <img class="elements__card-icon" src="./images/heart.svg" alt="Иконка-лайк">
+              <button class="elements__card-icon" type="button"></button>
             </div>
           </article>
         </li>
@@ -111,6 +96,20 @@
   <footer class="footer">
     <p class="footer__text">&copy; 2020 Mesto Russia</p>
   </footer>
+  <!--<section class="popup popup_opened">-->
+  <section class="popup" aria-label="Редактирование профиля">
+    <div class="popup__container">
+      <h2 class="popup__text-title">Редактировать профиль</h2>
+      <form class="popup__data-editing" name="data-editing" action="#" method="get">
+        <input class="popup__text-name" placeholder="Жак-Ив Кусто">
+        <input class="popup__text-activity" placeholder="Исследователь океана">
+        <button class="popup__button" type="submit">Сохранить</button>
+      </form>
+      <button class="popup__close-button" type="button">
+        <img class="popup__close-img" src="./images/Close-icon.svg" alt="Кнопка закрытия окна">
+      </button>
+    </div>
+  </section>
 </body>
 
 </html>

@@ -387,6 +387,9 @@ template {
 }
 
 
+input::-moz-placeholder { color: rgb(0, 0, 0); }
+input::-webkit-input-placeholder { color: rgb(0, 0, 0); }
+
 
 
 

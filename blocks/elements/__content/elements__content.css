@@ -1,4 +1,5 @@
 .elements__content {
+  margin: 0 auto;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

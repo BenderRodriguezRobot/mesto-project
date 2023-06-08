@@ -8,19 +8,19 @@
 
 }
 
-@media (max-width: 500px) {
-  .footer__text {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    text-align: left;
-
-  }
-}
-
 @media (min-width: 501px) and (max-width: 900px) {
   .footer__text {
     max-width: calc(100% - 32px);
 
   }
 }
+
+@media (max-width: 500px) {
+  .footer__text {
+    font-size: 14px;
+    line-height: 17px;
+
+  }
+}
+
+

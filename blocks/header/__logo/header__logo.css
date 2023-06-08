@@ -1,8 +1,15 @@
 .header__logo {
   display: block;
   max-height: 33px;
+  transition: .3s;
+  cursor: pointer;
 }
 
+
+.header__logo:hover {
+  opacity: .8;
+
+}
 
 @media (max-width: 900px) {
   .header__logo {
