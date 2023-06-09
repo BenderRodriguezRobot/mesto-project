@@ -1,4 +1,4 @@
-.popup-text {
+.popup__input{
   width: 358px;
   min-height: 27px;
   font-size: 14px;
@@ -9,20 +9,19 @@
   margin: 30px auto 0;
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, .2);
-  box-shadow: 0 0 rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
 }
 
-.popup-text:first-child {
+.popup__input:first-child {
   margin-top: 54px;
 }
 
 @media (max-width: 550px) {
-  .popup-text {
+  .popup__input {
     width: 238px;
   }
 
-  .popup-text:first-child {
+  .popup__input:first-child {
     margin-top: 75px;
   }
 }
